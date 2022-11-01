@@ -21,14 +21,28 @@
         android:layout_marginTop="10dp"
         />
 
-    <Button
-        android:id="@+id/bt_tekan"
+    <EditText
+        android:id="@+id/et_namaPeserta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_judul"
+        android:layout_below="@+id/tv_judul"
+        android:hint="Nama Peserta : "
+        android:textSize="15sp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_pindah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_namaPeserta"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:hint="TEKAN"
         />
+
+
 
 </RelativeLayout>
