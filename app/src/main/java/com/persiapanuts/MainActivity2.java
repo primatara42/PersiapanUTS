@@ -17,8 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-        Intent terimaIntent = getIntent();
-        String yNama = terimaIntent.getStringExtra("xNama");
+       
 
     }
 }
