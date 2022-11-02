@@ -12,12 +12,15 @@ public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-        tvNama = findViewById(R.id.tv_nama);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
 
-       
+        getSupportActionBar().setTitle("Hasil Output");
 
+        tvNama = findViewById(R.id.tv_nama);
+
+        Intent terima = getIntent();
+        String yNama = terima.getStringExtra("xNama");
+        tvNama.setText(yNama);
     }
 }
